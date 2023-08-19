@@ -27,8 +27,8 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-/* .nav-card{
-    width:  350px;
+ .nav-card{
+    width:  300px;
     height: 300px;
     border:2px var(--White) solid ;
     display: flex;
