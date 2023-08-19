@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+--Dark-Gray: hsl(0, 0%, 55%);
+--Very-Dark-Gray: hsl(0, 0%, 41%);
+--font-family: 'Alata', sans-serif;
+--font-family-2: 'Josefin Sans', sans-serif;
+}
+
+nav{
+    background-image: url(./images/mobile/image-hero.jpg);
+    /* max-width: 100%; */
+    height: 70vh; 
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: cover;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+/* .nav-card{
+    width:  350px;
+    height: 300px;
+    border:2px var(--White) solid ;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    padding: 10px;
+}
+
+.nav-card h1{
+    font-family: var(--font-family);
+ font-weight: lighter;
+    font-size: 50px;
+    color: var(--White);
+} */
+.menu-card{
+    display: none;
+}
+figure{
+
+    padding: 40px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    
+}
+/* figure h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+figure p{
+    font-family: var(--font-family)--font-family-2;
+    font-size: 25px;
+    margin-top: 20px;
+    
+} */
