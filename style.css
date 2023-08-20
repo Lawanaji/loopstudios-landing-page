@@ -93,6 +93,7 @@ figure p{
     height: 50px;
     background: none;
     border: 2px black solid;
+    color: var(--Black);
     position: relative;
     left: 150px;
 }
