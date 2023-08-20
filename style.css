@@ -93,3 +93,24 @@ figure p{
     color: var(--White);
     transition-duration: 1s;
 }
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: var(--Black);
+    display: flex;
+    justify-content: center;
+    color: var(--White);
+}
+.footer{
+    display: grid;
+}
+.link{
+    display: flex;
+}
+.links a{
+    display: flex;
+text-decoration: none;
+    color: var(--White);
+    padding-left: 50px;
+}
