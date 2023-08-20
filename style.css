@@ -67,7 +67,9 @@ figure p{
     
 }
 .creation-section{
-    height: 180vh;
+    display: grid;
+    height: 160vh;
+    padding: 20px;
 }
 .creation-section h1{
     text-align: center;
@@ -75,4 +77,19 @@ figure p{
 }
 .creation-section img{
     width: 100%;
+}
+
+.creation-section p{
+    font-family: var(--font-family);
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 2px --Black solid;
+}
+.btn:hover{
+    background-color: var(--Black);
+    color: var(--White);
+    transition-duration: 1s;
 }
