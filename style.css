@@ -83,7 +83,7 @@ figure p{
     font-family: var(--font-family);
 }
 .image-1 h1, .image-2 h1, .image-3 h1, .image-4 h1, .image-5 h1, .image-6 h1, .image-7 h1, .image-8 h1{
-    font-size: 50px;
+    font-size: 30px;
     position: absolute;
     color: var(--White);
     padding: 100px 10px;
