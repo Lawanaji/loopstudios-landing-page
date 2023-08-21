@@ -1,9 +1,14 @@
 const remEl = document.querySelector('.x-code');
 const menuCard = document.querySelector('.menu-card')
+// const hamburger =  document.querySelector('.hamburger')
 
-function remov(){
+
+
+
+// console.log(hamburger)
+function remov(menuCard){ 
     if(menuCard){
-        menuCard.parentNode.removeChild(menuCard)
+    menuCard.remove()
     }
 }
-remov(remEl)
+remov()
