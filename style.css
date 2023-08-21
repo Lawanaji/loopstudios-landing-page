@@ -45,7 +45,7 @@ ul{
     color: var(--White);
 } 
 .menu-card{
-     /* display: grid; */
+     display: none;
     width: 100%;
     justify-content: space-around;
     position: absolute;
