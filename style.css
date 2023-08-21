@@ -44,9 +44,55 @@ ul{
     font-size: 50px;
     color: var(--White);
 } 
-/* .menu-card{
-    display: none;
-} */
+.menu-card{
+     /* display: grid; */
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    height: 100vh;
+    background-color: black;
+    z-index: 2;
+    overflow:hidden ;
+}
+.menu-card img{
+    margin: 30px;
+}
+.x-code{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+float: right;
+    border: 2px White solid;
+    border-radius: 50px;
+    color: var(--White);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.hamburger{
+    display: block;
+}
+.mobile-menu{
+    display: grid;
+    gap: 50px;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+   
+}
+.mobile-menu a{
+    color: var(--White);
+    text-decoration: none;
+} 
+.mobile-menu:hover a{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+}
 figure{
 
     padding: 40px;
