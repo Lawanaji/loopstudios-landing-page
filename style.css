@@ -141,7 +141,7 @@ figure p{
     border: 2px black solid;
     color: var(--Black);
     position: relative;
-    left: 150px;
+    left: 120px;
 }
 .btn:hover{
     background-color: var(--Black);
