@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 :root{
 --White: hsl(0, 0%, 100%);
 --Black: hsl(0, 0%, 0%);
@@ -58,9 +62,9 @@ ul{
     margin: 30px;
 }
 .x-code{
-    width: 80px;
-    height: 80px;
-    font-size: 40px;
+    width: 75px;
+    height: 75px;
+    font-size: 35px;
 position: relative;
 display: flex;
 justify-content: center;
