@@ -2,6 +2,8 @@ const remEl = document.querySelector('.x-code');
 const menuCard = document.querySelector('.menu-card')
 const hamburger =  document.querySelector('.hamburger')
 
+
+console.log(remEl)
 function toggle(menuCard){
     if(menuCard.style.display == 'none'){
         menuCard.style.display = 'block';
@@ -19,4 +21,5 @@ function remov(menuCard){
     }
 }
 remov();
+
 
